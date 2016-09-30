@@ -1,3 +1,24 @@
-.container_header {
-    background-color: blue;
+.superContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.menuBar {
+    display: flex;
+    background-color: paleturquoise;
+    margin: 0px 3px;
+    padding: 10px 20px;
+    width: 100%;
+    justify-content: center; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+.menuItem {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.menuItem-1 {
+    flex-grow: 2;
 }
